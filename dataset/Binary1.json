@@ -1,0 +1,29 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"filenameparam": {
+				"type": "string",
+				"defaultValue": "1.txt"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().filenameparam",
+					"type": "Expression"
+				},
+				"folderPath": "first",
+				"fileSystem": "aklake"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
