@@ -4,7 +4,7 @@
 		"description": "test",
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copy data21",
 				"description": "test 2",
 				"type": "Copy",
 				"dependsOn": [],
