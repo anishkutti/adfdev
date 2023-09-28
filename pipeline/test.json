@@ -1,6 +1,7 @@
 {
 	"name": "test",
 	"properties": {
+		"description": "description:test",
 		"activities": [
 			{
 				"name": "Wait1",
