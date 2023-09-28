@@ -1,6 +1,7 @@
 {
 	"name": "Binary1",
 	"properties": {
+		"description": "description:test",
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
