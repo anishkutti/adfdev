@@ -1,6 +1,7 @@
 {
 	"name": "copy special chars",
 	"properties": {
+		"description": "..",
 		"activities": [
 			{
 				"name": "Copy data1",
