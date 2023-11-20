@@ -1,7 +1,7 @@
 {
 	"name": "copyFeature",
 	"properties": {
-		"description": "added in feature 1.2.0",
+		"description": "added in feature 1.2.0 sample",
 		"activities": [
 			{
 				"name": "Wait1",
