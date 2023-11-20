@@ -13,7 +13,7 @@
 				"folderPath": "tmp",
 				"fileSystem": "source"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
